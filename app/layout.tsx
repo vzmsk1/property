@@ -1,4 +1,5 @@
 import "@/assets/styles/globals.css";
+import Footer from "@/components/footer.component";
 import Navbar from "@/components/navbar.component";
 import type { ReactNode } from "react";
 
@@ -14,6 +15,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
       <body>
         <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
