@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-export interface InfoBoxProps {
+export interface InfoBoxTypes {
   heading: string;
   backgroundColor: string;
   textColor?: string;
