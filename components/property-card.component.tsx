@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import type { PropertyCardTypes } from "@/types/property-card.types";
+import type { PropertyCardTypes } from "@/types/property.types";
 import {
   FaBed,
   FaBath,
