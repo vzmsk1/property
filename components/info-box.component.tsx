@@ -1,4 +1,4 @@
-import type { InfoBoxProps } from "@/types/info-box.props";
+import type { InfoBoxTypes } from "@/types/info-box.types";
 
 const InfoBox = ({
   heading,
@@ -6,7 +6,7 @@ const InfoBox = ({
   textColor = "text-gray-800",
   buttonInfo,
   children,
-}: InfoBoxProps) => {
+}: InfoBoxTypes) => {
   return (
     <div className={`${backgroundColor} p-6 rounded-lg shadow-md`}>
       <h2 className={`${textColor} text-2xl font-bold`}>{heading}</h2>
